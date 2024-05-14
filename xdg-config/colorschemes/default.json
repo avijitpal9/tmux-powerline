@@ -1,0 +1,26 @@
+{
+    "groups": {
+        "pyenv:version": {
+            "bg": "gray3",
+            "fg": "green",
+            "attrs": []
+        },
+        "jenv:version": {
+            "bg": "black",
+            "fg": "red",
+            "attrs": [
+                "bold"
+            ]
+        },
+        "mem_usage": {
+            "bg": "gray3",
+            "fg": "green",
+            "attrs": []
+        },
+        "docker_ctx": {
+            "bg": "black",
+            "fg": "green",
+            "attrs": []
+        }
+    }
+}

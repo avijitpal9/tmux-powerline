@@ -1,0 +1,32 @@
+{
+    "segments": {
+        "right": [
+            {
+                "priority": 30,
+                "function": "powerlinecust.segments.common.docker_ctx",
+                "display": true
+            },
+            {
+                "priority": 20,
+                "function": "powerlinecust.segments.common.pyenv",
+                "display": true
+            },
+            {
+                "priority": 10,
+                "function": "powerlinecust.segments.common.jenv",
+                "display": true
+            },
+            {
+                "function": "powerlinecust.segments.mem_usage.mem_usage_percent",
+                "display": true
+            },
+            {
+                "function": "powerline.segments.common.sys.cpu_load_percent",
+                "display": true,
+                "args": {
+                    "interval": 5
+                }
+            }
+        ]
+    }
+}
